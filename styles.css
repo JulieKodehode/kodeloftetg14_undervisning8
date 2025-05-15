@@ -1,0 +1,65 @@
+/* GENERAL */
+img {
+  max-width: 50%;
+}
+
+section {
+  min-height: 100vh;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+/* MAIN */
+.sectionHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroIntro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 426px) {
+  img {
+    max-width: 100%;
+  }
+
+  .heroIntro {
+    flex-direction: column;
+  }
+}
+
+.sectionProjects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectCard {
+  border: 2px black solid;
+  width: 300px;
+}
+
+@media (max-width: 426px) {
+  .sectionProjects {
+    flex-direction: column;
+  }
+}
+
+/* FOOTER */
